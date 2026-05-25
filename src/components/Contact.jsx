@@ -25,10 +25,10 @@ export default function Contact() {
     {
       icon: <Phone className="w-5 h-5 text-brand-blue" />,
       title: 'Telepon / WhatsApp',
-      detail: '+62 812-3456-7890',
+      detail: '+62 812-9215-3026',
       desc: 'Hubungi kami langsung via WhatsApp Chat',
       isLink: true,
-      href: 'https://wa.me/6281234567890?text=Halo%20PT.%20Mulia%20Tunggal%20Nusantara,%20saya%20ingin%20bertanya%20mengenai%20pengadaan%20barang.',
+      href: 'https://wa.me/6281292153026?text=Halo%20PT.%20Mulia%20Tunggal%20Nusantara,%20saya%20ingin%20bertanya%20mengenai%20pengadaan%20barang.',
     },
     {
       icon: <Mail className="w-5 h-5 text-brand-blue" />,
