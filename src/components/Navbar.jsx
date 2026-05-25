@@ -204,7 +204,7 @@ export default function Navbar() {
         {/* ── Sidebar Footer ── */}
         <div className="relative z-10 px-5 pb-8 pt-4 border-t border-white/10 space-y-3">
           {/* WhatsApp quick CTA */}
-          <a href="https://wa.me/6281234567890?text=Halo%20MTN"
+          <a href="https://wa.me/6281292153026?text=Halo%20MTN"
              target="_blank" rel="noopener noreferrer"
              className="btn-ripple flex items-center justify-center gap-2 w-full
                         bg-emerald-500 hover:bg-emerald-400

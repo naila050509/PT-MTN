@@ -122,7 +122,7 @@ export default function Products() {
     <section id="products" className="relative py-20 bg-slate-50 overflow-hidden">
       
       {/* Decorative vectors */}
-      <div className="absolute top-0 left-0 w-full h-[1px] bg-slate-200"></div>
+      <div className="absolute top-0 left-0 w-full h-px bg-slate-200"></div>
       <div className="absolute top-1/3 left-0 w-80 h-80 bg-brand-yellow/5 rounded-full blur-3xl -z-10 animate-blob-3"></div>
       <div className="absolute bottom-0 right-0 w-96 h-96 bg-brand-blue/5 rounded-full blur-3xl -z-10 animate-blob-1"></div>
 
@@ -174,7 +174,7 @@ export default function Products() {
             >
               <div className="bg-white rounded-2xl overflow-hidden border border-slate-200/85 shadow-sm hover:shadow-2xl hover:border-brand-blue/30 transition-all duration-300 flex flex-col group h-full w-full grad-border-card">
                 {/* Product Image Frame */}
-                <div className="relative aspect-[16/10] overflow-hidden bg-slate-100">
+                <div className="relative aspect-16/10 overflow-hidden bg-slate-100">
                   <img 
                     src={prod.image} 
                     alt={prod.name}
@@ -188,7 +188,7 @@ export default function Products() {
                 </div>
 
                 {/* Product Specs */}
-                <div className="p-6 flex flex-col justify-between flex-grow text-left">
+                <div className="p-6 flex flex-col justify-between grow text-left">
                   <div className="space-y-3">
                     <h4 className="font-bold text-slate-900 text-lg group-hover:text-brand-blue transition-colors leading-snug">
                       {prod.name}
@@ -201,7 +201,7 @@ export default function Products() {
                     <div className="pt-3 border-t border-slate-100 space-y-2">
                       {prod.features.map((f, idx) => (
                         <div key={idx} className="flex items-start gap-2 text-xs text-slate-600">
-                          <CheckCircle2 size={14} className="text-emerald-500 mt-0.5 flex-shrink-0" />
+                          <CheckCircle2 size={14} className="text-emerald-500 mt-0.5 shrink-0" />
                           <span>{f}</span>
                         </div>
                       ))}
